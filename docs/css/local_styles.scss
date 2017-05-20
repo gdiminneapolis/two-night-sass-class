@@ -1,0 +1,8 @@
+---
+---
+// remember that everything must sit inside the .reveal selector to work on a slide
+.reveal {
+    iframe { vertical-align: top; }
+    ol, ul { vertical-align: top; padding-right: 20px; }
+    .tagline { font-style: italic; }
+}
