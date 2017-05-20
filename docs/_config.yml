@@ -1,0 +1,13 @@
+collections:
+  - slides
+
+
+exclude:
+  - CONTRIBUTING-revealjs.md
+  - Gruntfile.js
+  - LICENSE-revealjs
+  - README-revealjs.md
+  - bower.json
+  - node_modules
+  - package.json
+  - test
