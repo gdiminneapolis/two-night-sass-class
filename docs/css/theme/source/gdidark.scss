@@ -24,6 +24,10 @@ $darkTheme: #110273;
 $mediumTheme: #030ba6;
 $lightTheme: #0511f2;
 $contrastTheme: #05F2DB;
+$blue: lighten($lightTheme, 25%);
+$gold: Gold;
+$green: darken($contrastTheme, 20%);
+$pink: PaleVioletRed;
 
 $mainColor: $contrastTheme;
 $headingColor: $contrastTheme;
@@ -43,6 +47,15 @@ $heading1Size: 2.5em;
 $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
+
+.reveal .blue { color: $blue; }
+.reveal .gold { color: $gold; }
+.reveal .pink { color: $pink;}
+.reveal .green { color: $green; }
+.reveal .blue-bg { background-color: $blue; }
+.reveal .gold-bg { background-color: $gold; }
+.reveal .pink-bg { background-color: $pink;}
+.reveal .green-bg { background-color: $green; }
 
 section.has-light-background {
 	&, h1, h2, h3, h4, h5, h6 {

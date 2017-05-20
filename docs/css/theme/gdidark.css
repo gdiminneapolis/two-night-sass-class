@@ -4,6 +4,30 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url("https://fonts.googleapis.com/css?family=Carter+One");
+.reveal .blue {
+  color: #7a81fc; }
+
+.reveal .gold {
+  color: Gold; }
+
+.reveal .pink {
+  color: PaleVioletRed; }
+
+.reveal .green {
+  color: #038e81; }
+
+.reveal .blue-bg {
+  background-color: #7a81fc; }
+
+.reveal .gold-bg {
+  background-color: Gold; }
+
+.reveal .pink-bg {
+  background-color: PaleVioletRed; }
+
+.reveal .green-bg {
+  background-color: #038e81; }
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 

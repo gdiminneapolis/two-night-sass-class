@@ -4,5 +4,25 @@
 .reveal {
     iframe { vertical-align: top; }
     ol, ul { vertical-align: top; padding-right: 20px; }
+
+    .figure-left, .figure-right {
+        // a two-column slide, placing the figure on the left
+        display: flex;
+        flex-direction: row;
+        figure {
+            flex: 1;
+        }
+        aside {
+            flex: 1;
+        }
+    }
+    .figure-left {
+        figure { order: 1; }
+        aside { order: 2; }
+    }
+    .figure-right {
+        figure { order: 2; }
+        aside { order: 1; }
+    }
     .tagline { font-style: italic; }
 }
